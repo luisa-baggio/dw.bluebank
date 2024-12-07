@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Bank</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.jpg" alt="Logo" class="logo">
+            <h1>Blue Bank</h1>
+        </div>
+    </header>
+    <section class="carousel">
+        <button class="prev">&#10094;</button>
+        <img src="img1.jpg" alt="Imagem 1" class="active">
+        <img src="img2.avif" alt="Imagem 2">
+        <img src="img3.jpg" alt="Imagem 3">
+        <button class="next">&#10095;</button>
+    </section>
+    <p class="intro">Nosso site vai oferecer a você: Segurança, Confiabilidade e Praticidade!</p>
+    <section id="info">
+        <div class="info-block">
+            <img src="regras.png" alt="Regras das Contas" class="info-image">
+            <div class="info-text">
+                <h2>Regras das Contas</h2>
+                <p>Conheça as políticas e vantagens das contas oferecidas pelo Blue Bank.</p>
+            </div>
+        </div>
+        <div class="info-block reverse">
+            <img src="transfer.png" alt="Transferências" class="info-image">
+            <div class="info-text">
+                <h2>Transferências</h2>
+                <p>Realize transferências de forma segura e rápida para qualquer banco.</p>
+            </div>
+        </div>
+        <div class="info-block">
+            <img src="saques.png" alt="Saques" class="info-image">
+            <div class="info-text">
+                <h2>Saques</h2>
+                <p>Saques disponíveis em qualquer caixa eletrônico credenciado.</p>
+            </div>
+        </div>
+        <div class="info-block reverse">
+            <img src="consultas.png" alt="Consulta de Saldos" class="info-image">
+            <div class="info-text">
+                <h2>Consulta de Saldos</h2>
+                <p>Acesse seu saldo a qualquer momento, de forma simples e prática.</p>
+            </div>
+        </div>
+    </section>
+    <section id="cadastro">
+        <h2>Cadastro de Clientes</h2>
+        <form id="formCadastro">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+            <label for="numeroConta">Número da Conta</label>
+            <input type="text" id="numeroConta" required>
+            <label for="tipoConta">Tipo de Conta</label>
+            <select id="tipoConta" required>
+                <option value="salario">Salário</option>
+                <option value="poupanca">Poupança</option>
+                <option value="corrente">Conta Corrente</option>
+            </select>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Blue Bank - Todos os direitos reservados</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
